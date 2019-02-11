@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6439B402212039A00F931C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439B3F2212039A00F931C6 /* AppDelegate.swift */; };
+		F6439B422212039A00F931C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439B412212039A00F931C6 /* ViewController.swift */; };
+		F6439B452212039A00F931C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6439B432212039A00F931C6 /* Main.storyboard */; };
+		F6439B47221203AC00F931C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6439B46221203AC00F931C6 /* Assets.xcassets */; };
+		F6439B4A221203AC00F931C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6439B48221203AC00F931C6 /* LaunchScreen.storyboard */; };
+		F6439B55221203AD00F931C6 /* Go2RadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439B54221203AD00F931C6 /* Go2RadTests.swift */; };
+		F6439B60221203AD00F931C6 /* Go2RadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439B5F221203AD00F931C6 /* Go2RadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6439B51221203AD00F931C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6439B342212039A00F931C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6439B3B2212039A00F931C6;
+			remoteInfo = Go2Rad;
+		};
+		F6439B5C221203AD00F931C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6439B342212039A00F931C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6439B3B2212039A00F931C6;
+			remoteInfo = Go2Rad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6439B3C2212039A00F931C6 /* Go2Rad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Go2Rad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6439B3F2212039A00F931C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6439B412212039A00F931C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6439B442212039A00F931C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6439B46221203AC00F931C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6439B49221203AC00F931C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6439B4B221203AD00F931C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6439B50221203AD00F931C6 /* Go2RadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Go2RadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6439B54221203AD00F931C6 /* Go2RadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go2RadTests.swift; sourceTree = "<group>"; };
+		F6439B56221203AD00F931C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6439B5B221203AD00F931C6 /* Go2RadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Go2RadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6439B5F221203AD00F931C6 /* Go2RadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go2RadUITests.swift; sourceTree = "<group>"; };
+		F6439B61221203AD00F931C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6439B392212039A00F931C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6439B4D221203AD00F931C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6439B58221203AD00F931C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6439B332212039A00F931C6 = {
+			isa = PBXGroup;
+			children = (
+				F6439B3E2212039A00F931C6 /* Go2Rad */,
+				F6439B53221203AD00F931C6 /* Go2RadTests */,
+				F6439B5E221203AD00F931C6 /* Go2RadUITests */,
+				F6439B3D2212039A00F931C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6439B3D2212039A00F931C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6439B3C2212039A00F931C6 /* Go2Rad.app */,
+				F6439B50221203AD00F931C6 /* Go2RadTests.xctest */,
+				F6439B5B221203AD00F931C6 /* Go2RadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6439B3E2212039A00F931C6 /* Go2Rad */ = {
+			isa = PBXGroup;
+			children = (
+				F6439B3F2212039A00F931C6 /* AppDelegate.swift */,
+				F6439B412212039A00F931C6 /* ViewController.swift */,
+				F6439B432212039A00F931C6 /* Main.storyboard */,
+				F6439B46221203AC00F931C6 /* Assets.xcassets */,
+				F6439B48221203AC00F931C6 /* LaunchScreen.storyboard */,
+				F6439B4B221203AD00F931C6 /* Info.plist */,
+			);
+			path = Go2Rad;
+			sourceTree = "<group>";
+		};
+		F6439B53221203AD00F931C6 /* Go2RadTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6439B54221203AD00F931C6 /* Go2RadTests.swift */,
+				F6439B56221203AD00F931C6 /* Info.plist */,
+			);
+			path = Go2RadTests;
+			sourceTree = "<group>";
+		};
+		F6439B5E221203AD00F931C6 /* Go2RadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6439B5F221203AD00F931C6 /* Go2RadUITests.swift */,
+				F6439B61221203AD00F931C6 /* Info.plist */,
+			);
+			path = Go2RadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6439B3B2212039A00F931C6 /* Go2Rad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6439B64221203AD00F931C6 /* Build configuration list for PBXNativeTarget "Go2Rad" */;
+			buildPhases = (
+				F6439B382212039A00F931C6 /* Sources */,
+				F6439B392212039A00F931C6 /* Frameworks */,
+				F6439B3A2212039A00F931C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Go2Rad;
+			productName = Go2Rad;
+			productReference = F6439B3C2212039A00F931C6 /* Go2Rad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6439B4F221203AD00F931C6 /* Go2RadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6439B67221203AD00F931C6 /* Build configuration list for PBXNativeTarget "Go2RadTests" */;
+			buildPhases = (
+				F6439B4C221203AD00F931C6 /* Sources */,
+				F6439B4D221203AD00F931C6 /* Frameworks */,
+				F6439B4E221203AD00F931C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6439B52221203AD00F931C6 /* PBXTargetDependency */,
+			);
+			name = Go2RadTests;
+			productName = Go2RadTests;
+			productReference = F6439B50221203AD00F931C6 /* Go2RadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6439B5A221203AD00F931C6 /* Go2RadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6439B6A221203AD00F931C6 /* Build configuration list for PBXNativeTarget "Go2RadUITests" */;
+			buildPhases = (
+				F6439B57221203AD00F931C6 /* Sources */,
+				F6439B58221203AD00F931C6 /* Frameworks */,
+				F6439B59221203AD00F931C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6439B5D221203AD00F931C6 /* PBXTargetDependency */,
+			);
+			name = Go2RadUITests;
+			productName = Go2RadUITests;
+			productReference = F6439B5B221203AD00F931C6 /* Go2RadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6439B342212039A00F931C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sonar;
+				TargetAttributes = {
+					F6439B3B2212039A00F931C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F6439B4F221203AD00F931C6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F6439B3B2212039A00F931C6;
+					};
+					F6439B5A221203AD00F931C6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F6439B3B2212039A00F931C6;
+					};
+				};
+			};
+			buildConfigurationList = F6439B372212039A00F931C6 /* Build configuration list for PBXProject "Go2Rad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6439B332212039A00F931C6;
+			productRefGroup = F6439B3D2212039A00F931C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6439B3B2212039A00F931C6 /* Go2Rad */,
+				F6439B4F221203AD00F931C6 /* Go2RadTests */,
+				F6439B5A221203AD00F931C6 /* Go2RadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6439B3A2212039A00F931C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6439B4A221203AC00F931C6 /* LaunchScreen.storyboard in Resources */,
+				F6439B47221203AC00F931C6 /* Assets.xcassets in Resources */,
+				F6439B452212039A00F931C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6439B4E221203AD00F931C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6439B59221203AD00F931C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6439B382212039A00F931C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6439B422212039A00F931C6 /* ViewController.swift in Sources */,
+				F6439B402212039A00F931C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6439B4C221203AD00F931C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6439B55221203AD00F931C6 /* Go2RadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6439B57221203AD00F931C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6439B60221203AD00F931C6 /* Go2RadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6439B52221203AD00F931C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6439B3B2212039A00F931C6 /* Go2Rad */;
+			targetProxy = F6439B51221203AD00F931C6 /* PBXContainerItemProxy */;
+		};
+		F6439B5D221203AD00F931C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6439B3B2212039A00F931C6 /* Go2Rad */;
+			targetProxy = F6439B5C221203AD00F931C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6439B432212039A00F931C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6439B442212039A00F931C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6439B48221203AC00F931C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6439B49221203AC00F931C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6439B62221203AD00F931C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6439B63221203AD00F931C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6439B65221203AD00F931C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SBFKEGD7C;
+				INFOPLIST_FILE = Go2Rad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sonargroup.Go2Rad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6439B66221203AD00F931C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SBFKEGD7C;
+				INFOPLIST_FILE = Go2Rad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sonargroup.Go2Rad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6439B68221203AD00F931C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SBFKEGD7C;
+				INFOPLIST_FILE = Go2RadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sonargroup.Go2RadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go2Rad.app/Go2Rad";
+			};
+			name = Debug;
+		};
+		F6439B69221203AD00F931C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SBFKEGD7C;
+				INFOPLIST_FILE = Go2RadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sonargroup.Go2RadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go2Rad.app/Go2Rad";
+			};
+			name = Release;
+		};
+		F6439B6B221203AD00F931C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SBFKEGD7C;
+				INFOPLIST_FILE = Go2RadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sonargroup.Go2RadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Go2Rad;
+			};
+			name = Debug;
+		};
+		F6439B6C221203AD00F931C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SBFKEGD7C;
+				INFOPLIST_FILE = Go2RadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sonargroup.Go2RadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Go2Rad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6439B372212039A00F931C6 /* Build configuration list for PBXProject "Go2Rad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6439B62221203AD00F931C6 /* Debug */,
+				F6439B63221203AD00F931C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6439B64221203AD00F931C6 /* Build configuration list for PBXNativeTarget "Go2Rad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6439B65221203AD00F931C6 /* Debug */,
+				F6439B66221203AD00F931C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6439B67221203AD00F931C6 /* Build configuration list for PBXNativeTarget "Go2RadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6439B68221203AD00F931C6 /* Debug */,
+				F6439B69221203AD00F931C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6439B6A221203AD00F931C6 /* Build configuration list for PBXNativeTarget "Go2RadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6439B6B221203AD00F931C6 /* Debug */,
+				F6439B6C221203AD00F931C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6439B342212039A00F931C6 /* Project object */;
+}
