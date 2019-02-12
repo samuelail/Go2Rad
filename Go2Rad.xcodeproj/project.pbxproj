@@ -29,6 +29,7 @@
 		F6439BD2221225EC00F931C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6439BC7221225EC00F931C6 /* Info.plist */; };
 		F6439BD4221234A500F931C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6439BD3221234A500F931C6 /* GoogleService-Info.plist */; };
 		F6439BD622123B8000F931C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439BD522123B8000F931C6 /* HomeViewController.swift */; };
+		F6439BD822124EF100F931C6 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439BD722124EF100F931C6 /* CellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		F6439BC7221225EC00F931C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6439BD3221234A500F931C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6439BD522123B8000F931C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F6439BD722124EF100F931C6 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				F6439B412212039A00F931C6 /* ViewController.swift */,
 				F6439B6D22120A9F00F931C6 /* LoginViewController.swift */,
 				F6439BD522123B8000F931C6 /* HomeViewController.swift */,
+				F6439BD722124EF100F931C6 /* CellData.swift */,
 				F6439B432212039A00F931C6 /* Main.storyboard */,
 				F6439B46221203AC00F931C6 /* Assets.xcassets */,
 				F6439B48221203AC00F931C6 /* LaunchScreen.storyboard */,
@@ -404,6 +407,7 @@
 				F6439BD622123B8000F931C6 /* HomeViewController.swift in Sources */,
 				F6439BCD221225EC00F931C6 /* JiroTextField.swift in Sources */,
 				F6439BCC221225EC00F931C6 /* TextFieldEffects.swift in Sources */,
+				F6439BD822124EF100F931C6 /* CellData.swift in Sources */,
 				F6439B6E22120A9F00F931C6 /* LoginViewController.swift in Sources */,
 				F6439BD1221225EC00F931C6 /* IsaoTextField.swift in Sources */,
 				F6439B422212039A00F931C6 /* ViewController.swift in Sources */,

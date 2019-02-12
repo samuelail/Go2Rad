@@ -41,6 +41,14 @@ class LoginViewController: UIViewController {
                     self.dismiss(animated: true, completion: nil)
                 }
                 else {
+                    let title = "Error"
+                    let message = "Incorrect username or password"
+                    let popup = PopupDialog(title: title, message: message)
+                    let buttonOne = CancelButton(title: "CANCEL") {
+                        print("Alert dismissed")
+                    }
+                    popup.addButtons([buttonOne])
+                    self.present(popup, animated: true, completion: nil)
                     print("Error occured", error?.localizedDescription)
                 }
             }
