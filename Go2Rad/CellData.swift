@@ -12,6 +12,10 @@ class CellData: UITableViewCell {
 
     
     
+    @IBOutlet var requestImage: UIImageView!
+    @IBOutlet var bgView: UIView!
+    @IBOutlet var requestText: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

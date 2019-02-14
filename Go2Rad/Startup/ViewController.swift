@@ -24,10 +24,12 @@ class ViewController: UIViewController {
         
        
             if  let user = Auth.auth().currentUser {
+                 DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                 let homeVC =
                     self.storyboard?.instantiateViewController(withIdentifier: "tabBar") as! UITabBarController
                 homeVC.modalTransitionStyle = .crossDissolve
                 self.present(homeVC, animated: true, completion: nil)
+                }
             }
             else {
                  DispatchQueue.main.asyncAfter(deadline: .now() + 5) {

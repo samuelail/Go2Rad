@@ -14,6 +14,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
 
     @IBOutlet weak var dataTableview: UITableView!
+    
+    let text = ["I need someone to help with my back", " I need a cardiologist in the D.C area", " I am looking got a nursing assistant to help my husband", "Any doctor in the baltimore area?"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,14 +29,16 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return text.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard  let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? CellData else { return UITableViewCell() }
         
        // cell.postTexts.text = post[indexPath.row].body
-        //cell.userImg.layer.cornerRadius = cell.userImg.frame.height/2
+        cell.requestText.text = text[indexPath.row]
+        //cell.bgView.layer.cornerRadius = 5
+        //self.dataTableview.rowHeight = cell.bgView.frame.height
         return cell
     }
 

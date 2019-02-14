@@ -30,6 +30,8 @@
 		F6439BD4221234A500F931C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6439BD3221234A500F931C6 /* GoogleService-Info.plist */; };
 		F6439BD622123B8000F931C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439BD522123B8000F931C6 /* HomeViewController.swift */; };
 		F6439BD822124EF100F931C6 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439BD722124EF100F931C6 /* CellData.swift */; };
+		F6439BDA22126F8300F931C6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439BD922126F8300F931C6 /* GradientView.swift */; };
+		F6439BDC22127E7800F931C6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6439BDB22127E7800F931C6 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		F6439BD3221234A500F931C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6439BD522123B8000F931C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F6439BD722124EF100F931C6 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		F6439BD922126F8300F931C6 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		F6439BDB22127E7800F931C6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				F6439B3F2212039A00F931C6 /* AppDelegate.swift */,
-				F6439B412212039A00F931C6 /* ViewController.swift */,
-				F6439B6D22120A9F00F931C6 /* LoginViewController.swift */,
+				F6439BDD2214FFC900F931C6 /* Startup */,
 				F6439BD522123B8000F931C6 /* HomeViewController.swift */,
 				F6439BD722124EF100F931C6 /* CellData.swift */,
+				F6439BD922126F8300F931C6 /* GradientView.swift */,
 				F6439B432212039A00F931C6 /* Main.storyboard */,
 				F6439B46221203AC00F931C6 /* Assets.xcassets */,
 				F6439B48221203AC00F931C6 /* LaunchScreen.storyboard */,
@@ -203,6 +207,16 @@
 			);
 			name = TextFieldEffects;
 			path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		F6439BDD2214FFC900F931C6 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				F6439BDB22127E7800F931C6 /* RegisterViewController.swift */,
+				F6439B412212039A00F931C6 /* ViewController.swift */,
+				F6439B6D22120A9F00F931C6 /* LoginViewController.swift */,
+			);
+			path = Startup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,12 +419,14 @@
 				F6439BCF221225EC00F931C6 /* KaedeTextField.swift in Sources */,
 				F6439BC8221225EC00F931C6 /* YoshikoTextField.swift in Sources */,
 				F6439BD622123B8000F931C6 /* HomeViewController.swift in Sources */,
+				F6439BDA22126F8300F931C6 /* GradientView.swift in Sources */,
 				F6439BCD221225EC00F931C6 /* JiroTextField.swift in Sources */,
 				F6439BCC221225EC00F931C6 /* TextFieldEffects.swift in Sources */,
 				F6439BD822124EF100F931C6 /* CellData.swift in Sources */,
 				F6439B6E22120A9F00F931C6 /* LoginViewController.swift in Sources */,
 				F6439BD1221225EC00F931C6 /* IsaoTextField.swift in Sources */,
 				F6439B422212039A00F931C6 /* ViewController.swift in Sources */,
+				F6439BDC22127E7800F931C6 /* RegisterViewController.swift in Sources */,
 				F6439B402212039A00F931C6 /* AppDelegate.swift in Sources */,
 				F6439BC9221225EC00F931C6 /* HoshiTextField.swift in Sources */,
 				F6439BCA221225EC00F931C6 /* MinoruTextField.swift in Sources */,
